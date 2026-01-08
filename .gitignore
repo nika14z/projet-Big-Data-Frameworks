@@ -1,0 +1,32 @@
+# Données MovieLens (trop volumineuses)
+ml-latest/
+*.csv
+
+# Fichiers Parquet générés
+silver_movielens/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Spark
+*.log
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS
+.DS_Store
+Thumbs.db
